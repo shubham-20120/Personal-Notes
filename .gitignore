@@ -12,7 +12,7 @@
 /build
 
 # git
-/firebaseConfig.js
+/public/src/helper/firebaseConfig.js
 
 # misc
 .DS_Store
