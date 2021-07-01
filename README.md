@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# About Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### With the help of this project, you can keep your notes very easily.
+### You can see the project [LIVE HERE](https://notes-0001.web.app/)
 
 ## Available Scripts
 
