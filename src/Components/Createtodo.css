@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto+Condensed&display=swap');
+.createnote-main{
+    background-color: cyan;
+    height: 92vh;
+    display: flex;
+    padding-top: 5vh;
+    justify-content: center;
+}
+.show-notes{
+    height: auto;
+    max-height: 420px;
+    overflow-y: scroll;
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+    background-color: rgb(88, 255, 191);
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+.modal-description{
+    height: auto;
+    max-height: 500px;
+    overflow-y: scroll;
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+}
+.show-notes::-webkit-scrollbar, .modal-description::-webkit-scrollbar, .textarea-sign::-webkit-scrollbar{ /** WebKit */
+    display: none;
+}
+.createnote-container{
+    width: 450px;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+}
+.oneNote-left{
+    width: 350px;
+}
+.oneNote-container{
+    border-radius: 7px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: rgb(255, 112, 255);
+}
+.oneNote-delete{
+    /* background-color: teal; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    width: 100px;
+}
+.textarea-sign{
+    padding: 10px 5px !important;
+    margin-top: 100px;
+    overflow-y: scroll;
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+}
+@media only screen and (max-width: 750px) {
+  .createnote-container{
+      width: 350px;
+  }
+}
+/* @media only screen and (max-width: 750px) {
+  .createnote-container{
+      width: 300px;
+  }
+} */

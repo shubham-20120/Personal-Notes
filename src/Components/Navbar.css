@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+.navbar-main{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3F51B5;
+    height: 8vh;
+    
+}
+.navbar-left{
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 1.5rem;
+    color: white;
+    padding: 1.5vh 2vw 2.5vh 2.5vh;
+}
+.navbar-right{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    width: 400px;
+    padding: 10px 45px;
+}
+.sign-button{
+    color: white;
+}
+.sign-button:hover{
+    color: white;
+}
+.small-screen{
+    display: none;
+}
+.navbar-btns{
+    width: 250px !important;
+    margin: 0 10px !important;
+
+}
+@media only screen and (max-width: 750px) {
+  .large-screen {
+    display: none;
+  }
+  .small-screen{
+      display: flex;
+  }
+}

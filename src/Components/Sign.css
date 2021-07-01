@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+.textarea-sign{
+    overflow-y: scroll !important;
+}
+.signup-main{
+    height: auto;
+    background-color: aqua;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 10vh;
+}
+.sign-container{
+    padding: 25px 0;
+    width: 380px;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(121, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 30px 5px grey;
+}
+.mdbinput{
+    width: 100% !important;
+}
+.sign-title{
+    font-size: 2rem;
+    font-family: 'Kanit', sans-serif;
+}
+.requestLogin-main{
+    background-color: cyan;
+    height: 92vh;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.requestLogin-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 20%;
+}
+.requestLogin-links{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.switch-sign{
+    margin-top: 3vh;
+    font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 550px) {
+  .sign-container{
+      width: 340px;
+
+  }
+  .signup-main{
+      padding: 10vh 2vw;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .sign-container{
+      width: 90vw;
+  }
+  .signup-main{
+      padding: 10vh 2vw;
+  }
+}
+/* @media only screen and (max-width: 750px) {
+  .signup-main{
+      width: 340px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .signup-main{
+      width: 360px;
+  }
+} */
